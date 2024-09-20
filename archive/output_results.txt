@@ -1,0 +1,1534 @@
+Total items processed: 9325
+Total unique attributes found: 1518
+
+Top 10 most common attributes:
+additional: 9325
+durability: 9325
+maximum_rune: 9325
+item_type: 9325
+primary: 9325
+item_name: 9325
+rarity: 9325
+weight: 9325
+other: 9323
+requirements: 9321
+
+All unique attributes:
+additional
+additional.% attack bonus against priest
+additional.* item bonus *
+additional.10%
+additional.8%
+additional.ability
+additional.actions
+additional.advanced_options
+additional.advanced_options.enable_mov_faststart
+additional.advanced_options.keyframe_cut_mode
+additional.advanced_options.preserve_metadata
+additional.advanced_options.shift_all_start_times
+additional.advanced_options.smart_cut
+additional.all monsters attack bonus
+additional.all_monsters_attack_bonus
+additional.amount
+additional.attack
+additional.attack bonus
+additional.attack bonus against all monsters
+additional.attack bonus against beast
+additional.attack bonus against bosses
+additional.attack bonus against dragon
+additional.attack bonus against flying creature
+additional.attack bonus against flyingcreature
+additional.attack bonus against harpy
+additional.attack bonus against human
+additional.attack bonus against insectoid
+additional.attack bonus against mages
+additional.attack bonus against magical
+additional.attack bonus against mythical
+additional.attack bonus against orc
+additional.attack bonus against priest
+additional.attack bonus against rock
+additional.attack bonus against rogues
+additional.attack bonus against warriors
+additional.attack bonus against zombie
+additional.attack bonus against zombie +6%},
+additional.attack bonus against zombie +6%},.current_strength
+additional.attack bonus against zombie +6%},.required_strength
+additional.attack bonus.All Monsters
+additional.attack bonus.Beast
+additional.attack bonus.Harpy
+additional.attack bonus.Human
+additional.attack bonus.Magical
+additional.attack bonus.Zombie
+additional.attack bonus.all_monsters
+additional.attack bonus.beast
+additional.attack bonus.harpy
+additional.attack bonus.magical
+additional.attack_bonus
+additional.attack_bonus_against_all_monsters
+additional.attack_bonus_against_beast
+additional.attack_bonus_against_bosses
+additional.attack_bonus_against_dragon
+additional.attack_bonus_against_flying_creature
+additional.attack_bonus_against_flyingcreature
+additional.attack_bonus_against_harpy
+additional.attack_bonus_against_human
+additional.attack_bonus_against_insectoid
+additional.attack_bonus_against_mages
+additional.attack_bonus_against_magical
+additional.attack_bonus_against_monsters
+additional.attack_bonus_against_mythical
+additional.attack_bonus_against_orc
+additional.attack_bonus_against_priest
+additional.attack_bonus_against_priests
+additional.attack_bonus_against_rock
+additional.attack_bonus_against_rogu
+additional.attack_bonus_against_roguers
+additional.attack_bonus_against_rogues
+additional.attack_bonus_against_roguies
+additional.attack_bonus_against_warriors
+additional.attack_bonus_against_zombie
+additional.attack_bonus_all_monsters
+additional.attack_bonus_beast
+additional.attack_bonus_bosses
+additional.attack_bonus_flying
+additional.attack_bonus_flying_creature
+additional.attack_bonus_harpy
+additional.attack_bonus_human
+additional.attack_bonus_mages
+additional.attack_bonus_magical
+additional.attack_bonus_monsters
+additional.attack_bonus_priest
+additional.attack_bonus_rock
+additional.attack_bonus_rogues
+additional.attack_bonus_versus_priest
+additional.attack_bonus_vs_all_monsters
+additional.attack_bonus_vs_mages
+additional.attack_bonus_vs_priest
+additional.attack_bonus_vs_priests
+additional.attack_bonus_vs_rogues
+additional.attack_bonus_vs_warriors
+additional.attack_bonus_vs_zombie
+additional.attack_bonus_warriors
+additional.attack_bonus_zombie
+additional.attack_speed
+additional.attackbonusagainstpriest
+additional.attackbonusagainstwarriors
+additional.attribute
+additional.attribute1
+additional.attribute2
+additional.attribute_1
+additional.attribute_2
+additional.attribute_bonus
+additional.attribute_bonus.dexterity
+additional.attribute_bonus.strength
+additional.attributes
+additional.audio
+additional.axe defense
+additional.beast attack bonus
+additional.beast_attack_bonus
+additional.block_chance
+additional.bonus
+additional.bonus_against_human
+additional.bonus_against_orc
+additional.bonus_against_priest
+additional.bonus_against_rock
+additional.bonus_against_rogues
+additional.bonus_against_warriors
+additional.bonus_against_zombie
+additional.bonus_effect
+additional.bonus_percentage
+additional.bonus_type
+additional.bonus_value
+additional.bow defense
+additional.bp bonus per kill
+additional.bp_bonus_per_kill
+additional.buttons
+additional.cast_time
+additional.clear_button
+additional.clip_count
+additional.clips
+additional.clips.in
+additional.clips.name
+additional.clips.out
+additional.club defense
+additional.cooldown
+additional.cost
+additional.critical hit chance
+additional.critical_chance
+additional.critical_hit_bonus
+additional.curse damage res
+additional.dagger defense
+additional.damage_type
+additional.defense
+additional.defense bonus
+additional.defense bonus against all monsters
+additional.defense bonus against all monsters},
+additional.defense bonus against demon
+additional.defense bonus against dragon
+additional.defense bonus against mages
+additional.defense bonus against priests
+additional.defense bonus against rogues
+additional.defense bonus against rogues +3%},
+additional.defense bonus against rogues: 5%.
+additional.defense bonus against rogues},
+additional.defense bonus against undead
+additional.defense bonus against warriors
+additional.defense_against_rogues
+additional.defense_against_warriors
+additional.defense_bonus_against_demon
+additional.defense_bonus_against_dragon
+additional.defense_bonus_against_mages
+additional.defense_bonus_against_monsters
+additional.defense_bonus_against_priest
+additional.defense_bonus_against_priests
+additional.defense_bonus_against_rogu
+additional.defense_bonus_against_rogues
+additional.defense_bonus_against_roguese
+additional.defense_bonus_against_roguess
+additional.defense_bonus_against_roguies
+additional.defense_bonus_against_undead
+additional.defense_bonus_against_warriors
+additional.defense_bonus_all_monsters
+additional.defense_bonus_priests
+additional.defense_bonus_versus_warriors
+additional.defense_bonus_vs_rogues
+additional.defense_bonus_vs_warriors
+additional.defense_bonus_warriors
+additional.defensebonusagainstrogues
+additional.defensebonusagainstwarriors
+additional.description
+additional.duration
+additional.effect
+additional.effect_duration
+additional.effects
+additional.elemental resistance
+additional.elemental_affinity
+additional.elemental_bonus
+additional.elemental_damage
+additional.elemental_resistance
+additional.elemental_resistances
+additional.elemental_resistances.air
+additional.elemental_resistances.earth
+additional.elemental_resistances.fire
+additional.elemental_resistances.water
+additional.enable_mov_faststart
+additional.flavor_text
+additional.flying_creature_attack_bonus
+additional.flying_creature_bonus
+additional.functions
+additional.gold bonus
+additional.gold_bonus
+additional.harp attack bonus
+additional.harpy_attack_bonus
+additional.health_regeneration
+additional.holy_damage_resistance
+additional.hp bonus
+additional.hp leech
+additional.hp_leech
+additional.hp_leeches
+additional.ingredient1
+additional.ingredient2
+additional.invulnerability_duration
+additional.item bonus
+additional.item bonus *
+additional.item bonus *.Attack Bonus against Mages
+additional.item bonus *.Defense Bonus against Mages
+additional.item bonus.Attack Bonus against Bosses
+additional.item bonus.Attack Bonus against Dragon
+additional.item bonus.Attack Bonus against FlyingCreature
+additional.item bonus.Attack Bonus against Human
+additional.item bonus.Attack Bonus against Insectoid
+additional.item bonus.Attack Bonus against Mages
+additional.item bonus.Attack Bonus against Magical
+additional.item bonus.Attack Bonus against Priest
+additional.item bonus.Attack Bonus against Priests
+additional.item bonus.Attack Bonus against Rock
+additional.item bonus.Attack Bonus against Rogues
+additional.item bonus.Attack Bonus against Warriors
+additional.item bonus.Attack Bonus against Zombie
+additional.item bonus.Attack_Bonus_against_Dragon
+additional.item bonus.Attack_Bonus_against_Magical
+additional.item bonus.Attack_Bonus_against_Rogues
+additional.item bonus.Attack_Bonus_against_Warriors
+additional.item bonus.BP Bonus Per Kill
+additional.item bonus.BP_Bonus_Per_Kill
+additional.item bonus.BP_Per_Kill
+additional.item bonus.Defense Bonus against Dragon
+additional.item bonus.Defense Bonus against Mages
+additional.item bonus.Defense Bonus against Priests
+additional.item bonus.Defense Bonus against Rogues
+additional.item bonus.Defense Bonus against Warriors
+additional.item bonus.Defense_Bonus_against_Dragon
+additional.item bonus.Gold Bonus
+additional.item bonus.Gold_bonus
+additional.item bonus.HP Bonus
+additional.item bonus.Mages
+additional.item bonus.Priest
+additional.item bonus.Rogue Defense Bonus
+additional.item bonus.Rogues
+additional.item bonus.Warrior Defense Bonus
+additional.item bonus.Warriors
+additional.item bonus.XP Bonus
+additional.item bonus.XP_bonus
+additional.item bonus.against
+additional.item bonus.against_all_monsters
+additional.item bonus.against_beast
+additional.item bonus.against_bosses
+additional.item bonus.against_harpy
+additional.item bonus.against_human
+additional.item bonus.against_mages
+additional.item bonus.against_magical
+additional.item bonus.against_priest
+additional.item bonus.against_priests
+additional.item bonus.against_rogues
+additional.item bonus.against_warriors
+additional.item bonus.against_zombie
+additional.item bonus.all_monsters
+additional.item bonus.all_monsters_attack_bonus
+additional.item bonus.amount
+additional.item bonus.attack_bonus
+additional.item bonus.attack_bonus_against_all_monsters
+additional.item bonus.attack_bonus_against_bosses
+additional.item bonus.attack_bonus_against_dragon
+additional.item bonus.attack_bonus_against_flying_creature
+additional.item bonus.attack_bonus_against_human
+additional.item bonus.attack_bonus_against_mages
+additional.item bonus.attack_bonus_against_magical
+additional.item bonus.attack_bonus_against_priest
+additional.item bonus.attack_bonus_against_rock
+additional.item bonus.attack_bonus_against_rogues
+additional.item bonus.attack_bonus_against_ros
+additional.item bonus.attack_bonus_against_warriors
+additional.item bonus.attack_bonus_against_zombie
+additional.item bonus.attack_bonus_bosses
+additional.item bonus.attack_bonus_human
+additional.item bonus.attack_bonus_mages
+additional.item bonus.attack_bonus_priest
+additional.item bonus.attack_bonus_rock
+additional.item bonus.attack_bonus_vs_rogues
+additional.item bonus.attack_bonus_vs_warriors
+additional.item bonus.attack_bonus_zombie
+additional.item bonus.beast
+additional.item bonus.beast_attack_bonus
+additional.item bonus.bonus
+additional.item bonus.bonus_type
+additional.item bonus.boss_attack_bonus
+additional.item bonus.bp_bonus_per_kill
+additional.item bonus.bp_per_kill
+additional.item bonus.defense_bonus
+additional.item bonus.defense_bonus_against_demon
+additional.item bonus.defense_bonus_against_dragon
+additional.item bonus.defense_bonus_against_mages
+additional.item bonus.defense_bonus_against_priest
+additional.item bonus.defense_bonus_against_priests
+additional.item bonus.defense_bonus_against_rogues
+additional.item bonus.defense_bonus_against_ros
+additional.item bonus.defense_bonus_against_undead
+additional.item bonus.defense_bonus_against_warriors
+additional.item bonus.defense_bonus_rogues
+additional.item bonus.defense_bonus_warriors
+additional.item bonus.demon_defense_bonus
+additional.item bonus.description
+additional.item bonus.flying_creature_bonus
+additional.item bonus.gold_bonus
+additional.item bonus.harpy
+additional.item bonus.harpy_attack_bonus
+additional.item bonus.mage_attack_bonus
+additional.item bonus.magical
+additional.item bonus.magical_attack_bonus
+additional.item bonus.monster_defense_bonus
+additional.item bonus.percentage
+additional.item bonus.type
+additional.item bonus.undead_defense_bonus
+additional.item bonus.value
+additional.item bonus.xp_bonus
+additional.item_bonus_1
+additional.item_bonus_2
+additional.item_bonus_against_demon
+additional.item_bonus_against_mages
+additional.item_bonus_against_mages.attack_bonus
+additional.item_bonus_against_mages.defense_bonus
+additional.item_bonus_against_undead
+additional.item_bonus_attack
+additional.item_bonus_attack_against_dragon
+additional.item_bonus_attack_priest
+additional.item_bonus_defense_against_dragon
+additional.item_bonus_defense_priest
+additional.item_bonus_defense_rogues
+additional.item_bonus_defense_warriors
+additional.item_bonus_demon
+additional.item_bonus_per_kill
+additional.item_bonus_percentage
+additional.item_bonus_rogues
+additional.item_bonus_undead
+additional.keyframe_cut_mode
+additional.level
+additional.magic
+additional.magic bonus
+additional.magic_attack
+additional.magic_bonus
+additional.magic_defense
+additional.magic_power
+additional.magic_resistance
+additional.magical attack bonus
+additional.magical_attack_bonus
+additional.mana burn
+additional.mana_burn
+additional.mana_burn_percentage
+additional.mana_regen
+additional.mana_regeneration
+additional.mana_restoration
+additional.max weight bonus
+additional.movement_speed
+additional.mp bonus
+additional.mp leech
+additional.name
+additional.none
+additional.order_type
+additional.other
+additional.other.specific_collection_item
+additional.other_stats
+additional.overwrite_existing_files
+additional.percent
+additional.percentage
+additional.physical defense bonus
+additional.physical_attack_bonus
+additional.poison damage
+additional.poison damage res
+additional.poison_damage_resistance
+additional.quantity_control
+additional.quantity_input
+additional.reflect damage
+additional.reflect_damage
+additional.reflect_damage_percentage
+additional.remove_button
+additional.required dexterity
+additional.required intelligence
+additional.required level
+additional.required strength
+additional.required strength.current
+additional.required strength.value
+additional.required_hp
+additional.required_hp.current
+additional.required_hp.value
+additional.required_magic
+additional.resistance
+additional.scene_count
+additional.score_cavbella
+additional.score_champions
+additional.segments
+additional.segments.time
+additional.shift_start_times
+additional.side_effect
+additional.skills
+additional.slot_count
+additional.smart_cut
+additional.spear defense
+additional.spear_defense
+additional.special_ability
+additional.special_effect
+additional.special_effects
+additional.speed
+additional.spell_bonus
+additional.spell_duration
+additional.spell_power
+additional.stack_size
+additional.stamina
+additional.stat
+additional.stat1
+additional.stat2
+additional.status_effect
+additional.status_effects
+additional.sword defense
+additional.text
+additional.type
+additional.usage
+additional.use
+additional.use_limit
+additional.uses
+additional.value
+additional.xp bonus
+additional.xp_bonus
+bonus
+bonus.8% Attack Bonus against Mages
+bonus.AP Bonus (Physical)
+bonus.AP_Bonus_Physical
+bonus.Attack Bonus
+bonus.Attack Bonus against All Monsters
+bonus.Attack Bonus against Beast
+bonus.Attack Bonus against Bosses
+bonus.Attack Bonus against Dragon
+bonus.Attack Bonus against Harpy
+bonus.Attack Bonus against Mages
+bonus.Attack Bonus against Magical
+bonus.Attack Bonus against Mythical
+bonus.Attack Bonus against Orc
+bonus.Attack Bonus against Priest
+bonus.Attack Bonus against Priests
+bonus.Attack Bonus against Rock
+bonus.Attack Bonus against Rogues
+bonus.Attack Bonus against Warriors
+bonus.Attack Power
+bonus.Attack Range
+bonus.Attack_Bonus_Against_Mages
+bonus.Attack_Bonus_against_Mages
+bonus.Attack_Bonus_against_Magical
+bonus.Attack_Bonus_against_Orc
+bonus.Attack_Bonus_against_Rock
+bonus.BP Bonus Per Kill
+bonus.BP_Bonus_Per_Kill
+bonus.Curse Damage Res
+bonus.Defense Bonus against Demon
+bonus.Defense Bonus against Dragon
+bonus.Defense Bonus against Mages
+bonus.Defense Bonus against Priests
+bonus.Defense Bonus against Rogues
+bonus.Defense Bonus against Undead
+bonus.Defense Bonus against Warriors
+bonus.Defense_Bonus_Against_Mages
+bonus.Defense_Bonus_Against_Rogues
+bonus.Defense_Bonus_Against_Warriors
+bonus.Defense_Bonus_against_Mages
+bonus.Defense_Bonus_against_Warriors
+bonus.Defense_bonus_against_mages
+bonus.Defensive Bonus against Mages
+bonus.Defensive Bonus against Warriors
+bonus.Hit Rate
+bonus.Item Bonus
+bonus.Item Bonus Per Kill
+bonus.Item Bonus against Magical
+bonus.Item Bonus against Warriors
+bonus.Item Bonus.AP Bonus (Physical)
+bonus.Item Bonus.Attack Bonus against Dragon
+bonus.Item Bonus.Attack Bonus against Magical
+bonus.Item Bonus.Attack Bonus against Warriors
+bonus.Item Bonus.BP Bonus Per Kill
+bonus.Item Bonus.Defense Bonus against Dragon
+bonus.Item Bonus.Defense Bonus against Mages
+bonus.Item Bonus.Defense Bonus against Rogues
+bonus.Item Bonus.Defense Bonus against Warriors
+bonus.Item Bonus.Magical Attack Bonus
+bonus.Item Bonus.Warrior Attack Bonus
+bonus.ItemBonus
+bonus.Item_Bonus
+bonus.Item_Bonus.Attack_Bonus_against_Magical
+bonus.Item_Bonus.Attack_Bonus_against_Warriors
+bonus.Item_Bonus_Magical
+bonus.Item_Bonus_Warriors
+bonus.Level Cap
+bonus.Max Weight Bonus
+bonus.Physical Defense Bonus
+bonus.Poison Damage Res
+bonus.Required Level
+bonus.Value
+bonus.additional_damage
+bonus.additional_effect
+bonus.against warriors
+bonus.against_demon
+bonus.against_orc
+bonus.against_undead
+bonus.agility
+bonus.agility_bonus
+bonus.amount
+bonus.attack
+bonus.attack_bonus
+bonus.attack_bonus_against_Orc
+bonus.attack_bonus_against_all_monsters
+bonus.attack_bonus_against_beast
+bonus.attack_bonus_against_bosses
+bonus.attack_bonus_against_insectoid
+bonus.attack_bonus_against_mages
+bonus.attack_bonus_against_magical
+bonus.attack_bonus_against_mythical
+bonus.attack_bonus_against_orc
+bonus.attack_bonus_against_orc_percentage
+bonus.attack_bonus_against_priest
+bonus.attack_bonus_against_rogu
+bonus.attack_bonus_against_rogues
+bonus.attack_bonus_against_roguese
+bonus.attack_bonus_against_warriors
+bonus.attack_bonus_all_monsters
+bonus.attack_bonus_bosses
+bonus.attack_bonus_mages
+bonus.attack_bonus_percent
+bonus.attack_bonus_percentage
+bonus.attack_bonus_rogues
+bonus.attack_bonus_versus_orc
+bonus.attack_bonus_versus_rogues
+bonus.attack_bonus_versus_warriors
+bonus.attack_bonus_vs_warriors
+bonus.attack_bonus_warriors
+bonus.attack_boost
+bonus.attack_power
+bonus.attack_range
+bonus.attack_speed
+bonus.attribute
+bonus.attributes
+bonus.attributes.N/A
+bonus.block_chance
+bonus.bonus1
+bonus.bonus2
+bonus.bonus_1
+bonus.bonus_2
+bonus.bonus_effect
+bonus.bonus_effects
+bonus.bonus_type
+bonus.bonus_value
+bonus.bp_bonus_per_kill
+bonus.crit_chance
+bonus.crit_rate
+bonus.critical
+bonus.critical_chance
+bonus.critical_hit
+bonus.critical_hit_chance
+bonus.critical_rate
+bonus.critical_strike_chance
+bonus.damage_bonus
+bonus.damage_boost
+bonus.damage_increase
+bonus.defense
+bonus.defense_against_demon
+bonus.defense_against_undead
+bonus.defense_bonus
+bonus.defense_bonus_against_demon
+bonus.defense_bonus_against_mages
+bonus.defense_bonus_against_mages_percentage
+bonus.defense_bonus_against_priests
+bonus.defense_bonus_against_rogues
+bonus.defense_bonus_against_undead
+bonus.defense_bonus_against_warriors
+bonus.defense_boost
+bonus.demon_defense_bonus
+bonus.description
+bonus.dexterity
+bonus.duration
+bonus.effect
+bonus.effects
+bonus.elemental_damage
+bonus.elemental_resistance
+bonus.elemental_resistance.fire
+bonus.elemental_resistance.ice
+bonus.elemental_resistance.lightning
+bonus.extra_effects
+bonus.fire_resistance
+bonus.frame_rate
+bonus.general
+bonus.health
+bonus.health_bonus
+bonus.health_increase
+bonus.health_regen
+bonus.health_regeneration
+bonus.health_restoration
+bonus.health_restore
+bonus.health_restored
+bonus.hit_rate
+bonus.hp_bonus
+bonus.intelligence
+bonus.intelligence_bonus
+bonus.item_bonus
+bonus.item_bonus.AP Bonus (Physical)
+bonus.item_bonus.AP_Bonus_Physical
+bonus.item_bonus.AP_bonus_physical
+bonus.item_bonus.BP Bonus Per Kill
+bonus.item_bonus.BP_Per_Kill
+bonus.item_bonus.BP_bonus_per_kill
+bonus.item_bonus.attack_bonus_against_magical
+bonus.item_bonus.attack_bonus_against_warriors
+bonus.item_bonus.attack_bonus_bosses
+bonus.item_bonus.attack_bonus_mages
+bonus.item_bonus.bp_bonus_per_kill
+bonus.item_bonus.bp_per_kill
+bonus.item_bonus.defense_bonus_against_mages
+bonus.item_bonus.magical_attack_bonus
+bonus.item_bonus.warrior_attack_bonus
+bonus.item_bonus_attack_against_magical
+bonus.item_bonus_attack_against_warriors
+bonus.item_bonus_per_kill
+bonus.level_up_bonus
+bonus.life_steal
+bonus.luck
+bonus.magic
+bonus.magic_defense
+bonus.magic_resistance
+bonus.magical_attack
+bonus.mana
+bonus.mana_bonus
+bonus.mana_regeneration
+bonus.max_weight_bonus
+bonus.movement_speed
+bonus.name
+bonus.none
+bonus.orc_attack_bonus
+bonus.percentage
+bonus.percentage_bonus
+bonus.physical_attack
+bonus.physical_attack_bonus
+bonus.physical_defense
+bonus.physical_defense_bonus
+bonus.preserve_metadata
+bonus.range
+bonus.required_hp
+bonus.required_hp_with_bonus
+bonus.required_level
+bonus.required_strength
+bonus.round
+bonus.speed
+bonus.spell_power
+bonus.spell_power_bonus
+bonus.stamina
+bonus.stamina_bonus
+bonus.stamina_regen
+bonus.stat
+bonus.stat_bonus
+bonus.stat_boosts
+bonus.stat_boosts.intelligence
+bonus.stat_boosts.wisdom
+bonus.stat_increase
+bonus.stats
+bonus.stats.attack
+bonus.stats.defense
+bonus.stealth
+bonus.stealth_bonus
+bonus.strength
+bonus.strength_bonus
+bonus.target
+bonus.type
+bonus.undead_defense_bonus
+bonus.undefined
+bonus.unknown
+bonus.value
+bonus.visual appeal
+class_restriction
+durability
+item_name
+item_type
+maximum_rune
+other
+other.(Crafted Rogue Plate Headgear)
+other.Attack Power
+other.Bind
+other.Bind Status
+other.Bind status
+other.Bind when equipped
+other.Binds when equipped
+other.Cannot add runes
+other.Cannot be upgraded
+other.Crafted Priest Heavy Leather Chest Armor
+other.Description
+other.Enhanced Priest Heavy Plate Tasset
+other.Enhanced Warrior Heavy Plate Tasset
+other.Enhanced Warrior Plate Tasset
+other.Item Bonus
+other.Item type
+other.Maximum Rune
+other.Note
+other.Notes
+other.Physical Defense Bonus
+other.Required Dexterity Level
+other.Required HP Level
+other.Runes
+other.Runes Restriction
+other.Runes can't be added to this item
+other.Runes restriction
+other.Specific Collection Item
+other.Specific_Collection_Item
+other.Upgrade
+other.Upgrade Status
+other.Upgrade status
+other.additional requirement details
+other.associated_item
+other.attack_power
+other.audio_tracks
+other.bind_on_pickup
+other.bind_status
+other.binding
+other.binding_status
+other.binds
+other.binds_when_equipped
+other.cannot_be_upgraded
+other.cannot_upgrade
+other.cast_time
+other.class_type
+other.clear
+other.clear_action_possible
+other.collection_item
+other.craftable
+other.crafted
+other.crafted_by
+other.crafted_from
+other.crafting_materials
+other.date
+other.decorated_with
+other.desc
+other.description
+other.effect
+other.effect_duration
+other.effects
+other.element
+other.elemental_damage
+other.elemental_resistance
+other.enhancement_level
+other.equipable
+other.event_type
+other.experimental_flags
+other.file_format
+other.flavor_text
+other.format
+other.functionality
+other.has_special_effect
+other.is_collection_item
+other.item_bonus
+other.item_bonus_description
+other.item_bonuses
+other.item_caption
+other.item_level
+other.material_required
+other.max_rune
+other.max_stack
+other.none
+other.note
+other.notes
+other.physical_defense_bonus
+other.properties
+other.quantity
+other.refinement_level
+other.rune_capability
+other.rune_info
+other.rune_information
+other.rune_restriction
+other.runed_addition
+other.runed_restriction
+other.runes
+other.runes_can't_be_added
+other.runes_can_be_added
+other.runes_can_not_be_added
+other.runes_cannot_be_added
+other.runes_restriction
+other.runescape
+other.runestones
+other.runic_addition
+other.runic_info
+other.runic_restriction
+other.runs_cannot_be_added
+other.segment_count
+other.sell_price
+other.set_bonus
+other.skills
+other.special_abilities
+other.special_ability
+other.special_collection_item
+other.special_effect
+other.special_effects
+other.special_traits
+other.specific_collection
+other.specific_collection_item
+other.specific_item
+other.specify_collection_item
+other.stackable
+other.tasset
+other.tradeable
+other.type
+other.upgradable
+other.upgrade
+other.upgrade_status
+other.upgradeable
+other.usage
+other.use_limit
+other.value
+other.video_tracks
+physical_attack_bonus
+physical_defense_bonus
+primary
+primary.+
+primary.+1
+primary.+10
+primary.+115
+primary.+12
+primary.+13
+primary.+15
+primary.+18
+primary.+19
+primary.+2
+primary.+20
+primary.+25
+primary.+3
+primary.+30
+primary.+4
+primary.+5
+primary.+6
+primary.+62
+primary.+7
+primary.+8
+primary.+80
+primary.+9
+primary.+90
+primary.+92
+primary.+96
+primary.+99
+primary.+health bonus
+primary.-10
+primary.-12
+primary.-13
+primary.-20
+primary.-23
+primary.-24
+primary.-25
+primary.-5
+primary.-5 strength bonus
+primary.-7
+primary.-8
+primary.-9
+primary.ability
+primary.additional_effect
+primary.agility
+primary.amount
+primary.attack
+primary.attack bonus
+primary.attack_bonus_against_rogues
+primary.attack_bonus_against_warriors
+primary.attack_bonus_mythical
+primary.attack_damage
+primary.attack_speed
+primary.attack_type
+primary.attribute
+primary.attribute1
+primary.attribute2
+primary.attribute_power
+primary.axe defense
+primary.axe_defense
+primary.axedefense
+primary.bonus
+primary.bonus_damage
+primary.bonus_type
+primary.boost_type
+primary.boost_value
+primary.bow defense
+primary.bow_defense
+primary.bowdefense
+primary.club defense
+primary.club_defense
+primary.color
+primary.count
+primary.curse damage res
+primary.curse damage res.
+primary.curse damage resistance
+primary.curse_damage_res
+primary.curse_damage_resist
+primary.dagger defense
+primary.dagger_defense
+primary.daggerdefense
+primary.damage
+primary.damage.Lightning
+primary.damage_amount
+primary.damage_bonus
+primary.damage_bonus.poison
+primary.damage_reduction
+primary.damage_resistance
+primary.damage_type
+primary.damage_value
+primary.defense
+primary.defense bonus
+primary.defense bonus.spear
+primary.defense_power
+primary.description
+primary.dexterity bonus
+primary.dexterity requirement
+primary.dexterity_bonus
+primary.duration
+primary.effect
+primary.element
+primary.elemental resistance
+primary.end_time
+primary.fire damage
+primary.fire_damage
+primary.fire_resistance
+primary.firedamage
+primary.functions
+primary.heal
+primary.heal_amount
+primary.healing
+primary.healing_amount
+primary.health
+primary.health_bonus
+primary.health_restoration
+primary.health_restore
+primary.health_restored
+primary.healthbonus
+primary.holy damage res
+primary.holy damage res.
+primary.holy_damage_res
+primary.holy_damage_resist
+primary.holy_damage_resistance
+primary.hp bonus
+primary.hp_bonus
+primary.hpbonus
+primary.ice damage
+primary.ice_damage
+primary.ice_resistance
+primary.icedamage
+primary.input_tracks
+primary.intelligence
+primary.intelligence bonus
+primary.intelligence_bonus
+primary.intelligence_requirement
+primary.intelligencebonus
+primary.item bonus
+primary.lighting_damage
+primary.lighting_resistance
+primary.lightning damage
+primary.lightning_damage
+primary.lightning_resistance
+primary.lightningdamage
+primary.magic
+primary.magic bonus
+primary.magic_attack
+primary.magic_attack_bonus
+primary.magic_bonus
+primary.magic_power
+primary.magic_requirement
+primary.magical_power
+primary.magicbonus
+primary.main_stat
+primary.match_type
+primary.mp bonus
+primary.mp_bonus
+primary.mpbonus
+primary.name
+primary.number
+primary.output_container_format
+primary.output_file_name
+primary.output_path
+primary.overwrite
+primary.physical damage
+primary.physical defense
+primary.physical defense bonus
+primary.physical_attack
+primary.physical_attack_bonus
+primary.poison damage
+primary.poison damage res
+primary.poison damage res.
+primary.poison_damage_res
+primary.poison_damage_resist
+primary.poison_damage_resistance
+primary.power
+primary.pp bonus
+primary.quantity
+primary.resistance
+primary.resistance_bonus
+primary.runel
+primary.save_path
+primary.secondary
+primary.size
+primary.skill
+primary.skill_boost
+primary.slot_count
+primary.spear defense
+primary.spear_defense
+primary.speardefense
+primary.speed
+primary.start_time
+primary.stat
+primary.stat1
+primary.strength
+primary.strength bonus
+primary.strengthbonus
+primary.sword defense
+primary.sword_defense
+primary.timecode
+primary.type
+primary.value
+primary.view
+primary.wisdom
+primary.wisdom_bonus
+rarity
+requirements
+requirements.
+requirements.(50)
+requirements.(60)
+requirements.(70)
+requirements.85
+requirements.Actual Intelligence
+requirements.Actual Magic
+requirements.Additional Level
+requirements.Additional Level Requirement
+requirements.Additional Requirement
+requirements.Additional Strength
+requirements.Additional Strength Requirement
+requirements.Adjusted Level
+requirements.Adjusted Strength
+requirements.Alternate Level
+requirements.Alternate Requirement
+requirements.Alternate Strength
+requirements.Alternative Level
+requirements.Alternative Required Level
+requirements.Alternative Required Strength
+requirements.Alternative Requirement
+requirements.Alternative Strength
+requirements.Alternative Strength Requirement
+requirements.Alternative_Level
+requirements.Applicable Strength
+requirements.Base Dexterity
+requirements.Base HP
+requirements.Base Intelligence
+requirements.Base Magic
+requirements.Base Strength
+requirements.Bonus Strength
+requirements.Boosted Level
+requirements.Class Restriction
+requirements.Current Dexterity
+requirements.Current HP
+requirements.Current Intelligence
+requirements.Current Magic
+requirements.Current Strength
+requirements.Current_Strength
+requirements.Dexterity
+requirements.Dexterity Bonus
+requirements.Dexterity with bonus
+requirements.Dexterity.base
+requirements.Dexterity.bonus
+requirements.Dexterity.current
+requirements.Dexterity.enhanced
+requirements.Dexterity.max
+requirements.Dexterity.maximum
+requirements.Dexterity.modified
+requirements.Dexterity.needed
+requirements.Dexterity.required
+requirements.Dexterity.total
+requirements.Dexterity.with_bonus
+requirements.Display Strength
+requirements.Exp Level
+requirements.HP
+requirements.HP Requirement Bonus
+requirements.HP with Bonus
+requirements.HP.base
+requirements.HP.max
+requirements.HP.required
+requirements.HP.value
+requirements.HP_with_boost
+requirements.Health Requirement
+requirements.Intelligence
+requirements.Intelligence Bonus
+requirements.Intelligence.current
+requirements.Intelligence.required
+requirements.Intelligence_display
+requirements.Level
+requirements.Level (85)
+requirements.Level (85) 
+requirements.Level (Enhancement)
+requirements.Level (Equipped)
+requirements.Level Boost
+requirements.Level Cap
+requirements.Level Max
+requirements.Level with Bonus
+requirements.Level with bonus
+requirements.MP Bonus
+requirements.Magic
+requirements.Magic Bonus
+requirements.Max Dexterity
+requirements.Max Level
+requirements.Max_Dexterity
+requirements.Maximum Dexterity
+requirements.Maximum Level
+requirements.Maximum Strength
+requirements.Min Strength
+requirements.Minimum Level
+requirements.Minimum Required Strength
+requirements.Minimum Strength
+requirements.Modified Strength
+requirements.N/A
+requirements.Optional Strength
+requirements.Other
+requirements.Required Class Level
+requirements.Required Dexterity (with bonus)
+requirements.Required HP
+requirements.Required HP (with bonus)
+requirements.Required HP.base
+requirements.Required HP.current
+requirements.Required Intelligence
+requirements.Required Intelligence Level
+requirements.Required Intelligence.actual
+requirements.Required Intelligence.amount
+requirements.Required Intelligence.base
+requirements.Required Intelligence.bonus
+requirements.Required Intelligence.current
+requirements.Required Intelligence.current_level
+requirements.Required Intelligence.effective_value
+requirements.Required Intelligence.level
+requirements.Required Intelligence.min
+requirements.Required Intelligence.modified
+requirements.Required Intelligence.value
+requirements.Required Level
+requirements.Required Level (85)
+requirements.Required Level (Boosted)
+requirements.Required Level (Enhanced)
+requirements.Required Level (Max)
+requirements.Required Level (Maximum)
+requirements.Required Level (max)
+requirements.Required Level (with bonus)
+requirements.Required Level Max
+requirements.Required Level with Penalty
+requirements.Required Level.current
+requirements.Required Level.max
+requirements.Required Level.value
+requirements.Required Mage
+requirements.Required Magic
+requirements.Required Magic Level
+requirements.Required Magic.actual
+requirements.Required Magic.amount
+requirements.Required Magic.base
+requirements.Required Magic.bonus
+requirements.Required Magic.current
+requirements.Required Magic.current_level
+requirements.Required Magic.level
+requirements.Required Magic.min
+requirements.Required Magic.modified
+requirements.Required Magic.value
+requirements.Required Strength
+requirements.Required Strength (with bonus)
+requirements.Required Strength (with bonuses)
+requirements.Required Strength.base
+requirements.Required Strength.bonus
+requirements.Required Strength.current
+requirements.Required Strength.effective_value
+requirements.Required Strength.max
+requirements.Required Strength.value
+requirements.RequiredIntelligence
+requirements.RequiredLevel
+requirements.RequiredStrength
+requirements.Required_HP
+requirements.Required_Magic
+requirements.Requirement Level
+requirements.Secondary Strength
+requirements.Strength
+requirements.Strength (Base)
+requirements.Strength (Current)
+requirements.Strength (base)
+requirements.Strength (current)
+requirements.Strength (level 60)
+requirements.Strength Bonus
+requirements.Strength Level
+requirements.Strength Requirement Bonus
+requirements.Strength at Level
+requirements.Strength for Use
+requirements.Strength for use
+requirements.Strength with Bonus
+requirements.Strength with bonuses
+requirements.Strength.current
+requirements.Strength.required
+requirements.Strength_Excess
+requirements.Strength_display
+requirements.Total Dexterity
+requirements.Total Level
+requirements.Total Strength
+requirements.Upgradable Level
+requirements.Upgrade Requirement Level
+requirements.Upgraded Level
+requirements.actual_dexterity
+requirements.actual_hp
+requirements.actual_intelligence
+requirements.actual_level
+requirements.actual_magic
+requirements.actual_required_level
+requirements.actual_strength
+requirements.additional_level
+requirements.additional_level_cap
+requirements.additional_level_requirement
+requirements.additional_required_dexterity
+requirements.additional_required_level
+requirements.additional_required_strength
+requirements.additional_requirement
+requirements.additional_requirements
+requirements.additional_stats
+requirements.additional_strength
+requirements.adjusted_strength
+requirements.advanced_level
+requirements.agility
+requirements.altered_required_strength
+requirements.alternate_dexterity
+requirements.alternate_strength
+requirements.alternate_value
+requirements.alternative_intelligence
+requirements.alternative_level
+requirements.alternative_required_level
+requirements.alternative_required_strength
+requirements.alternative_strength
+requirements.alternative_strength_requirement
+requirements.alternative_value
+requirements.attributes
+requirements.avoid_negative_ts
+requirements.base
+requirements.base_dexterity
+requirements.base_intelligence
+requirements.base_level
+requirements.base_magic
+requirements.base_required_strength
+requirements.base_strength
+requirements.before_bonus
+requirements.bonus_level
+requirements.bonus_required_dexterity
+requirements.bonus_required_level
+requirements.bonus_required_strength
+requirements.bonus_strength
+requirements.boosted_level
+requirements.boosted_strength
+requirements.category_level
+requirements.character_class
+requirements.class
+requirements.class_level
+requirements.class_required
+requirements.class_strength
+requirements.conditions
+requirements.contribution
+requirements.current_dexterity
+requirements.current_intelligence
+requirements.current_level
+requirements.current_magic
+requirements.current_strength
+requirements.currently_having
+requirements.description
+requirements.dexterity_cap
+requirements.dexterity_current
+requirements.dexterity_effective
+requirements.dexterity_max
+requirements.dexterity_maximum
+requirements.dexterity_required_bonuses
+requirements.dexterity_required_hardcore
+requirements.dexterity_required_max
+requirements.dexterity_up
+requirements.dexterity_upgrade
+requirements.effect
+requirements.effective_intelligence
+requirements.effective_level
+requirements.effective_magic
+requirements.effective_strength
+requirements.enhancement level
+requirements.evolution_level
+requirements.extra_level
+requirements.extra_level_required
+requirements.extra_strength_required
+requirements.factual_value
+requirements.ffmpeg_experimental_flag
+requirements.further_level
+requirements.hp_cap
+requirements.hp_mod
+requirements.hp_required
+requirements.hp_required_advanced
+requirements.hp_required_max
+requirements.hp_required_with_bonus
+requirements.hp_with_bonus
+requirements.initial_required_intelligence
+requirements.initial_required_magic
+requirements.initial_strength
+requirements.intel_required
+requirements.intelligence
+requirements.intelligence.base
+requirements.intelligence.current
+requirements.intelligence.display_value
+requirements.intelligence.effective
+requirements.intelligence.required
+requirements.intelligence.value
+requirements.intelligence_adjusted
+requirements.intelligence_base
+requirements.intelligence_cap
+requirements.intelligence_current
+requirements.intelligence_effective
+requirements.intelligence_level
+requirements.intelligence_level_55
+requirements.intelligence_reduction
+requirements.intelligence_required_alt
+requirements.intelligence_required_current
+requirements.intelligence_value
+requirements.intelligence_with_bonus
+requirements.item_level
+requirements.last_intelligence
+requirements.last_magic
+requirements.level
+requirements.level (85)
+requirements.level cap
+requirements.level.current
+requirements.level.required
+requirements.level.to_equip
+requirements.level_60
+requirements.level_85
+requirements.level_85_restriction
+requirements.level_adjusted
+requirements.level_affinity
+requirements.level_after_bonus
+requirements.level_after_upgrade
+requirements.level_bonus
+requirements.level_current
+requirements.level_display
+requirements.level_effective
+requirements.level_for_bonus
+requirements.level_for_equipment
+requirements.level_increase
+requirements.level_max
+requirements.level_min
+requirements.level_optional
+requirements.level_required_2
+requirements.level_required_85
+requirements.level_required_advanced
+requirements.level_required_alt
+requirements.level_required_alternate
+requirements.level_required_bonus
+requirements.level_required_bonuses
+requirements.level_required_display
+requirements.level_required_for_bonus
+requirements.level_required_hardcore
+requirements.level_required_max
+requirements.level_required_to_equip
+requirements.level_required_with_bonus
+requirements.level_semi_optional
+requirements.level_to_equip
+requirements.level_to_use
+requirements.level_up
+requirements.level_up_bonus
+requirements.level_upgrade
+requirements.level_upgraded
+requirements.level_with_bonus
+requirements.level_with_boost
+requirements.level_with_restriction
+requirements.magic
+requirements.magic.base
+requirements.magic.current
+requirements.magic.display_value
+requirements.magic.effective
+requirements.magic.required
+requirements.magic.value
+requirements.magic_base
+requirements.magic_current
+requirements.magic_effective
+requirements.magic_level
+requirements.magic_level_50
+requirements.magic_required
+requirements.magic_required_current
+requirements.magic_value
+requirements.magic_with_bonus
+requirements.max_dexterity
+requirements.max_hp
+requirements.max_required_level
+requirements.maximum_dexterity
+requirements.maximum_hp
+requirements.maximum_hp_required
+requirements.maximum_level
+requirements.maximum_required_dexterity
+requirements.maximum_strength
+requirements.maximum_strength_required
+requirements.min_required_strength
+requirements.min_strength
+requirements.minimum_dexterity
+requirements.minimum_intelligence
+requirements.minimum_strength
+requirements.modified_level
+requirements.modified_strength
+requirements.none
+requirements.note
+requirements.note_strength
+requirements.note_strength_bonus
+requirements.optional_strength
+requirements.original_strength
+requirements.other
+requirements.other_level
+requirements.other_requirement
+requirements.other_requirements
+requirements.overall_required_level
+requirements.players
+requirements.pre_level_intelligence
+requirements.pre_level_magic
+requirements.prestige_level
+requirements.previous_level
+requirements.proposed_level
+requirements.proposed_strength
+requirements.required Dexterity
+requirements.required HP
+requirements.required level
+requirements.requiredIntelligence
+requirements.requiredMagic
+requirements.required_Dexterity
+requirements.required_HP
+requirements.required_HP_182
+requirements.required_HP_base
+requirements.required_Intelligence
+requirements.required_Intelligence_55
+requirements.required_Magic
+requirements.required_dexterity_max
+requirements.required_hP
+requirements.required_hp_alternate
+requirements.required_intelligence_adjusted
+requirements.required_intelligence_cap
+requirements.required_intelligence_equipped
+requirements.required_intelligence_expert
+requirements.required_intelligence_with_bonus
+requirements.required_item_level
+requirements.required_level_85
+requirements.required_level_additional
+requirements.required_level_bonus
+requirements.required_level_hardcore
+requirements.required_level_with_bonus
+requirements.required_mage
+requirements.required_magic_current
+requirements.required_strenght
+requirements.required_strength_adjusted
+requirements.required_strength_cap
+requirements.required_strength_display
+requirements.required_strength_enhanced
+requirements.required_strength_equipped
+requirements.required_strength_expert
+requirements.required_strength_initial
+requirements.required_strength_level
+requirements.required_strength_variant
+requirements.requirement_comment
+requirements.requirement_strength
+requirements.skill
+requirements.skills
+requirements.soft_cap
+requirements.software
+requirements.starting_strength
+requirements.stat_required
+requirements.strength
+requirements.strength.base
+requirements.strength.current
+requirements.strength.required
+requirements.strength.to_equip
+requirements.strength_60
+requirements.strength_adjusted
+requirements.strength_affiliation
+requirements.strength_affinity
+requirements.strength_after_bonus
+requirements.strength_after_upgrade
+requirements.strength_base
+requirements.strength_buff
+requirements.strength_cap
+requirements.strength_class
+requirements.strength_current
+requirements.strength_effective
+requirements.strength_formula
+requirements.strength_ideal
+requirements.strength_level
+requirements.strength_level_60
+requirements.strength_max
+requirements.strength_needed_to_equip
+requirements.strength_optional
+requirements.strength_reduction
+requirements.strength_required_advanced
+requirements.strength_required_alternate
+requirements.strength_required_bonus
+requirements.strength_required_effective
+requirements.strength_required_for_bonus
+requirements.strength_required_level
+requirements.strength_required_max
+requirements.strength_required_to_equip
+requirements.strength_type
+requirements.strength_upgrade
+requirements.strength_upgraded
+requirements.strength_with_boost
+requirements.total_dexterity
+requirements.total_hp
+requirements.total_level
+requirements.total_level_required
+requirements.transcended_level
+requirements.type
+requirements.upgrade_level
+requirements.usable_at_level
+requirements.variant_strength
+weight
