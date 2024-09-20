@@ -77,5 +77,5 @@ console.log("Script started");
 run().then(() => {
     console.log("Script finished execution");
 }).catch(error => {
-    console.error("Unhandled error in main execution:", error);
+    console.error("Unhzandled error in main execution:", error);
 });
