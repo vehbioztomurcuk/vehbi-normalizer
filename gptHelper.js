@@ -1,159 +1,153 @@
 require('dotenv').config();
 const OpenAI = require('openai');
+const { setTimeout } = require('timers/promises');
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+let openai;
 
-console.log("OpenAI initialized with API key:", process.env.OPENAI_API_KEY ? "Present" : "Missing");
-
-async function consolidateAttributes(attributeMapping) {
-    console.log("Starting attribute consolidation...");
-    console.log(`Total number of attributes to consolidate: ${Object.keys(attributeMapping).length}`);
-
-    const chunkSize = 20; // Reduced from 25 to 20
-    const chunks = [];
-    const keys = Object.keys(attributeMapping);
-
-    for (let i = 0; i < keys.length; i += chunkSize) {
-        const chunk = {};
-        const chunkKeys = keys.slice(i, i + chunkSize);
-        chunkKeys.forEach(key => {
-            chunk[key] = attributeMapping[key];
-        });
-        chunks.push(chunk);
-    }
-
-    console.log(`Divided attributes into ${chunks.length} chunks of size ${chunkSize}`);
-
-    let consolidatedResult = {};
-
-    for (let i = 0; i < chunks.length; i++) {
-        console.log(`Processing chunk ${i + 1} of ${chunks.length}`);
-        let retries = 3;
-        let success = false;
-        while (retries > 0 && !success) {
-            try {
-                const chunkResult = await processChunk(chunks[i]);
-                consolidatedResult = { ...consolidatedResult, ...chunkResult };
-                success = true;
-                console.log(`Completed processing chunk ${i + 1}`);
-            } catch (error) {
-                console.error(`Error processing chunk ${i + 1}. Retries left: ${retries - 1}`);
-                retries--;
-                if (retries === 0) {
-                    console.error(`Failed to process chunk ${i + 1} after 3 attempts. Moving to next chunk.`);
-                }
-            }
-        }
-    }
-
-    console.log("All chunks processed. Consolidation complete.");
-    console.log(`Final number of consolidated attributes: ${Object.keys(consolidatedResult).length}`);
-
-    return consolidatedResult;
+function initializeOpenAI(apiKey) {
+  openai = new OpenAI({
+    apiKey: apiKey || process.env.OPENAI_API_KEY,
+  });
 }
 
-async function processChunk(chunk) {
+async function normalizeItem(item, attributeMapping) {
+  if (!openai) {
+    throw new Error("OpenAI client is not initialized. Call initializeOpenAI first.");
+  }
+
+  console.log(`Normalizing item: ${item.item_name}`);
+
+  // Truncate the item data if it's too large
+  const truncatedItem = truncateItemData(item);
+
+  const truncatedAttributeMapping = Object.fromEntries(
+    Object.entries(attributeMapping).map(([key, value]) => [
+      key,
+      { standardized_name: value.standardized_name }
+    ])
+  );
+
+  const messages = [
+    {
+      role: 'system',
+      content: `You are an expert system for normalizing MMORPG game item data. Your task is to standardize attribute names based on the provided mapping, ensuring consistency across all items.`,
+    },
+    {
+      role: 'user',
+      content: `Normalize the following MMORPG item data using this attribute mapping:
+
+Attribute Mapping:
+${JSON.stringify(truncatedAttributeMapping, null, 2)}
+
+Item to Normalize:
+${JSON.stringify(truncatedItem, null, 2)}
+
+Instructions:
+1. Identify all attributes in the item data, including nested ones in 'primary', 'additional', 'bonus', and 'requirements'.
+2. For each attribute, find the corresponding standardized name in the attribute mappingW.
+3. If an exact match is not found, use the closest match based on the aliases provided in the mapping.
+4. Rename the attributes to their standardized names, keeping the original values.
+5. Maintain the original structure of the item (primary, additional, bonus, requirements).
+6. If an attribute doesn't have a match in the mapping, keep it as is.
+7. Return the normalized item data as a JSON object.
+
+Please provide only the JSON output of the normalized item, without any additional explanation.`,
+    },
+  ];
+
+  const maxRetries = 3;
+  let retries = 0;
+
+  while (retries < maxRetries) {
     try {
-        console.log(`Processing chunk with ${Object.keys(chunk).length} attributes`);
-        const messages = [
-            {
-                role: 'system',
-                content: `You are an assistant that helps in consolidating game attribute mappings. Your task is to identify similar or identical parameters, merge them into unified entries, and retain their aliases for backward compatibility.`,
-            },
-            {
-                role: 'user',
-                content: `Here is the attribute mapping to consolidate: ${JSON.stringify(chunk)}. 
-                Please merge identical or semantically similar attributes, creating a unified entry for each set of similar attributes. 
-                The output should be a JSON object where each key is the unified attribute name, and the value is an object containing:
-                - "unified": the standardized attribute name
-                - "aliases": an array of all variations and aliases for this attribute, including the original key
-                Follow this format for each entry:
-                {
-                  "unified_attribute_name": {
-                    "unified": "standardized_name",
-                    "aliases": ["original_key", "alias1", "alias2", ...]
-                  }
-                }`,
-            },
-        ];
+      console.log(`Attempt ${retries + 1} to normalize item: ${item.item_name}`);
+      const response = await openai.chat.completions.create({
+        model: 'gpt-3.5-turbo',
+        messages: messages,
+        temperature: 0.1,
+        max_tokens: 1000,
+      });
 
-        console.log("Sending request to OpenAI...");
-        const response = await openai.chat.completions.create({
-            model: 'gpt-4',
-            messages: messages,
-            temperature: 0.3,
-            max_tokens: 2000,
-        });
-
-        console.log("Received response from OpenAI");
-        
-        let result;
-        try {
-            const content = response.choices[0].message.content;
-            console.log("Raw response content:", content);
-            result = JSON.parse(content);
-        } catch (parseError) {
-            console.error("Error parsing OpenAI response for chunk:");
-            console.error("Error message:", parseError.message);
-            console.error("Attempting to fix incomplete JSON...");
-            const fixedContent = fixIncompleteJSON(response.choices[0].message.content);
-            console.log("Fixed content:", fixedContent);
-            result = JSON.parse(fixedContent);
-            console.log("Fixed and parsed JSON successfully");
-        }
-
-        console.log(`Chunk processed. Consolidated ${Object.keys(result).length} attributes`);
-        
-        // Log merges for this chunk
-        Object.entries(result).forEach(([key, value]) => {
-            if (value.aliases && value.aliases.length > 1) {
-                console.log(`Merged in chunk: "${key}" with aliases: ${value.aliases.join(', ')}`);
-            } else {
-                console.log(`Attribute in chunk: "${key}" (no merging)`);
-            }
-        });
-
-        return result;
-
+      const normalizedItem = JSON.parse(response.choices[0].message.content);
+      console.log(`Successfully normalized item: ${item.item_name}`);
+      return normalizedItem;
     } catch (error) {
-        console.error("Error in processChunk function:");
-        console.error("Error name:", error.name);
-        console.error("Error message:", error.message);
-        if (error.response) {
-            console.error("OpenAI API Error:", error.response.data);
-        } else {
-            console.error("Error stack:", error.stack);
-        }
+      if (error.code === 'rate_limit_exceeded') {
+        console.log(`Rate limit exceeded for item ${item.item_name}. Retrying in ${(retries + 1) * 5} seconds...`);
+        await setTimeout((retries + 1) * 5000);
+        retries++;
+      } else {
+        console.error(`Error normalizing item ${item.item_name}:`, error.message);
         throw error;
+      }
     }
+  }
+
+  throw new Error(`Failed to normalize item ${item.item_name} after ${maxRetries} retries`);
 }
 
-function fixIncompleteJSON(str) {
-    console.log("Fixing incomplete JSON...");
-    let depth = 0;
-    let inString = false;
-    let fixed = '';
-    for (let i = 0; i < str.length; i++) {
-        const char = str[i];
-        if (char === '"' && str[i-1] !== '\\') inString = !inString;
-        if (!inString) {
-            if (char === '{' || char === '[') depth++;
-            if (char === '}' || char === ']') depth--;
-        }
-        fixed += char;
-        if (inString && i === str.length - 1) {
-            fixed += '"'; // Close any unclosed string
-            inString = false;
-        }
+function truncateItemData(item) {
+  const maxLength = 500; // Reduced from 2000
+  const truncatedItem = { ...item };
+
+  const truncateString = (str) => {
+    if (str && str.length > maxLength) {
+      console.log(`Truncating long string in item ${item.item_name}`);
+      return str.substring(0, maxLength) + '...';
     }
-    while (depth > 0) {
-        fixed += '}';
-        depth--;
+    return str;
+  };
+
+  // Truncate long string fields
+  truncatedItem.item_name = truncateString(truncatedItem.item_name);
+  truncatedItem.description = truncateString(truncatedItem.description);
+
+  // Truncate nested objects
+  ['primary', 'additional', 'bonus', 'requirements'].forEach(key => {
+    if (truncatedItem[key] && typeof truncatedItem[key] === 'object') {
+      Object.keys(truncatedItem[key]).forEach(subKey => {
+        truncatedItem[key][subKey] = truncateString(truncatedItem[key][subKey]);
+      });
     }
-    console.log("Fixed JSON:", fixed);
-    return fixed;
+  });
+
+  // Remove non-essential fields
+  delete truncatedItem.icon;
+  delete truncatedItem.image;
+
+  return truncatedItem;
 }
 
-module.exports = { consolidateAttributes };
+async function normalizeItems(items, attributeMapping, batchSize = 2) {
+  const normalizedItems = [];
+  const totalBatches = Math.ceil(items.length / batchSize);
+
+  for (let i = 0; i < items.length; i += batchSize) {
+    const batch = items.slice(i, i + batchSize);
+    const currentBatch = i / batchSize + 1;
+    console.log(`Processing batch ${currentBatch} of ${totalBatches}`);
+    
+    for (const item of batch) {
+      try {
+        console.log(`Starting normalization for item: ${item.item_name}`);
+        const normalizedItem = await normalizeItem(item, attributeMapping);
+        normalizedItems.push(normalizedItem);
+        console.log(`Finished normalizing item: ${item.item_name}`);
+      } catch (error) {
+        console.error(`Error normalizing item ${item.item_name}:`, error.message);
+      }
+      console.log(`Waiting 2 seconds before processing next item...`);
+      await setTimeout(2000);
+    }
+    
+    if (i + batchSize < items.length) {
+      console.log(`Batch ${currentBatch} complete. Waiting 10 seconds before processing next batch...`);
+      await setTimeout(10000);
+    }
+  }
+
+  console.log(`Normalization complete. Processed ${normalizedItems.length} out of ${items.length} items.`);
+  return normalizedItems;
+}
+
+module.exports = { initializeOpenAI, normalizeItems };

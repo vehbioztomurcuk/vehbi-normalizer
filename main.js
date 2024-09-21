@@ -1,81 +1,62 @@
 require('dotenv').config();
 const fs = require('fs').promises;
 const path = require('path');
-const { consolidateAttributes } = require('./gptHelper');
+const { initializeOpenAI, normalizeItems } = require('./gptHelper');
 
-async function run() {
-    console.log("Starting the run function");
+async function run(useTestData = false, apiKey = null) {
+    console.log("Starting the normalization process");
+    console.log(`Using ${useTestData ? 'test' : 'production'} data`);
 
     try {
-        console.log("Attempting to read attribute mapping file");
+        // Initialize OpenAI with the provided API key or from environment
+        initializeOpenAI(apiKey);
+        console.log("OpenAI client initialized");
 
-        const attributeMappingPath = path.join(__dirname, 'attribute_mapping.json');
-        console.log("Attribute mapping file path:", attributeMappingPath);
+        // Read the consolidated attributes
+        const attributeMappingPath = path.join(__dirname, 'consolidated_attributes.json');
+        const attributeMapping = JSON.parse(await fs.readFile(attributeMappingPath, 'utf8'));
+        console.log(`Attribute mapping loaded successfully from ${attributeMappingPath}`);
 
-        const rawFileContent = await fs.readFile(attributeMappingPath, 'utf8');
-        console.log("Raw file content length:", rawFileContent.length);
-        console.log("First 100 characters of raw content:", rawFileContent.slice(0, 100));
+        // Read the items to be normalized
+        const itemsPath = path.join(__dirname, useTestData ? 'test-items.json' : 'final-items.json');
+        const items = JSON.parse(await fs.readFile(itemsPath, 'utf8'));
+        console.log(`Loaded ${items.length} items for normalization from ${itemsPath}`);
 
-        let attributeMapping;
-        try {
-            attributeMapping = JSON.parse(rawFileContent);
-        } catch (parseError) {
-            console.error("Error parsing JSON:", parseError.message);
-            console.error("Error position:", parseError.position);
-            console.error("Content around error:", 
-                rawFileContent.slice(Math.max(0, parseError.position - 50), 
-                                     parseError.position + 50));
-            throw parseError;
-        }
+        // Normalize the items
+        console.log("Starting item normalization");
+        const startTime = Date.now();
+        const normalizedItems = await normalizeItems(items, attributeMapping);
+        const endTime = Date.now();
+        console.log(`Normalized ${normalizedItems.length} items in ${(endTime - startTime) / 1000} seconds`);
 
-        console.log("JSON parsed successfully");
-        console.log(`Number of original attributes: ${Object.keys(attributeMapping).length}`);
-
-        console.log("Calling consolidateAttributes function");
-        const result = await consolidateAttributes(attributeMapping);
-
-        console.log("Consolidation complete");
-        console.log(`Number of consolidated attributes: ${Object.keys(result).length}`);
-
-        // Report every merge with detailed information
-        Object.entries(result).forEach(([key, value]) => {
-            if (value.aliases.length > 1) {
-                console.log(`Merged: "${key}"`);
-                console.log(`  Unified name: ${value.unified}`);
-                console.log(`  Aliases: ${value.aliases.join(', ')}`);
-                console.log(`  Number of merged attributes: ${value.aliases.length}`);
-            } else {
-                console.log(`Unchanged: "${key}"`);
-            }
-        });
-
-        // Save the result to a file
-        const outputPath = path.join(__dirname, 'consolidated_attributes.json');
-        await fs.writeFile(outputPath, JSON.stringify(result, null, 2));
-        console.log("Consolidated results saved to:", outputPath);
+        // Save the normalized items
+        const outputPath = path.join(__dirname, useTestData ? 'normalized-test-items.json' : 'normalized-items.json');
+        await fs.writeFile(outputPath, JSON.stringify(normalizedItems, null, 2));
+        console.log(`Normalized items saved to: ${outputPath}`);
 
         // Log statistics
-        const totalOriginalAttributes = Object.keys(attributeMapping).length;
-        const totalConsolidatedAttributes = Object.keys(result).length;
-        const totalMerged = Object.values(result).filter(v => v.aliases.length > 1).length;
-        console.log("\nConsolidation Statistics:");
-        console.log(`  Original attributes: ${totalOriginalAttributes}`);
-        console.log(`  Consolidated attributes: ${totalConsolidatedAttributes}`);
-        console.log(`  Total merged: ${totalMerged}`);
-        console.log(`  Reduction percentage: ${((totalOriginalAttributes - totalConsolidatedAttributes) / totalOriginalAttributes * 100).toFixed(2)}%`);
+        console.log("\nNormalization Statistics:");
+        console.log(`  Original items: ${items.length}`);
+        console.log(`  Normalized items: ${normalizedItems.length}`);
+        console.log(`  Failed items: ${items.length - normalizedItems.length}`);
+        console.log(`  Success rate: ${((normalizedItems.length / items.length) * 100).toFixed(2)}%`);
 
-        console.log("Processing complete");
+        console.log("Normalization process complete");
     } catch (error) {
-        console.error("An error occurred:");
-        console.error("Error name:", error.name);
-        console.error("Error message:", error.message);
-        console.error("Error stack:", error.stack);
+        console.error("An error occurred during normalization:");
+        console.error(error.stack || error);
     }
 }
 
 console.log("Script started");
-run().then(() => {
+const useTestData = process.argv.includes('--test');
+const apiKeyIndex = process.argv.indexOf('--api-key');
+const apiKey = apiKeyIndex !== -1 ? process.argv[apiKeyIndex + 1] : null;
+
+run(useTestData, apiKey).then(() => {
     console.log("Script finished execution");
 }).catch(error => {
-    console.error("Unhzandled error in main execution:", error);
+    console.error("Unhandled error in main execution:");
+    console.error(error.stack || error);
+    process.exit(1);
 });

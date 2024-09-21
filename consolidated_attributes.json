@@ -59,46 +59,137 @@
       "Attack Bonus",
       "attack_bonus",
       "Attack_Bonus",
-      "attack_bonus_against_flying_creature",
       "+Attack Bonus",
+      "attack_damage"
+    ]
+  },
+  "Attack Bonus Against All Monsters": {
+    "unified": "attack_bonus_all_monsters",
+    "aliases": [
       "Attack Bonus Against All Monsters",
       "All Monsters Attack Bonus",
       "Attack_Bonus_Against_All_Monsters",
       "Attack_bonus_against_all_monsters",
+      "attack_bonus_against_monsters"
+    ]
+  },
+  "Attack Bonus Against Flying Creatures": {
+    "unified": "attack_bonus_flying_creatures",
+    "aliases": [
+      "attack_bonus_against_flying_creature",
       "Attack Bonus against Flying Creature",
       "Attack_Bonus_against_FlyingCreature",
       "Flying Creature Attack Bonus",
+      "attack_bonus_flying_creature"
+    ]
+  },
+  "Attack Bonus Against Rock": {
+    "unified": "attack_bonus_rock",
+    "aliases": [
       "attack_bonus_rock",
-      "attack_bonus_flying_creature",
+      "attack_bonus_against_rock"
+    ]
+  },
+  "Attack Bonus Against Rogues": {
+    "unified": "attack_bonus_rogues",
+    "aliases": [
       "attack_bonus_against_roguers",
-      "attack_bonus_against_mages",
-      "attack_bonus_against_priest",
-      "attack_bonus_against_zombie",
-      "attack_bonus_against_orc",
-      "attack_bonus_against_beast",
-      "attack_bonus_against_harpy",
-      "attack_bonus_against_insectoid",
-      "attack_bonus_against_mythical",
-      "attack_bonus_against_human",
-      "attack_bonus_against_bosses",
-      "attack_bonus_against_dragon",
-      "attack_bonus_against_warriors",
       "attack_bonus_against_rogues",
-      "attack_bonus_against_magical",
-      "attack_bonus_against_rock",
+      "attack_bonus_vs_rogues"
+    ]
+  },
+  "Attack Bonus Against Mages": {
+    "unified": "attack_bonus_mages",
+    "aliases": [
+      "attack_bonus_against_mages",
+      "attack_bonus_vs_mages"
+    ]
+  },
+  "Attack Bonus Against Priests": {
+    "unified": "attack_bonus_priests",
+    "aliases": [
+      "attack_bonus_against_priest",
       "attack_bonus_vs_priests",
-      "attack_bonus_vs_rogues",
-      "attack_bonus_vs_mages",
-      "attack_bonus_vs_warriors",
+      "attack_bonus_vs_priest"
+    ]
+  },
+  "Attack Bonus Against Warriors": {
+    "unified": "attack_bonus_warriors",
+    "aliases": [
+      "attack_bonus_against_warriors",
+      "attack_bonus_vs_warriors"
+    ]
+  },
+  "Attack Bonus Against Zombies": {
+    "unified": "attack_bonus_zombies",
+    "aliases": [
+      "attack_bonus_against_zombie",
       "attack_bonus_vs_zombie",
-      "attack_bonus_vs_priest",
-      "attack_bonus_harpy",
-      "attack_bonus_beast",
-      "attack_bonus_against_monsters",
-      "attack_bonus_mythical",
-      "attack_bonus_zombie",
-      "attack_bonus_human",
-      "attack_damage"
+      "attack_bonus_zombie"
+    ]
+  },
+  "Attack Bonus Against Orcs": {
+    "unified": "attack_bonus_orcs",
+    "aliases": [
+      "attack_bonus_against_orc"
+    ]
+  },
+  "Attack Bonus Against Beasts": {
+    "unified": "attack_bonus_beasts",
+    "aliases": [
+      "attack_bonus_against_beast",
+      "attack_bonus_beast"
+    ]
+  },
+  "Attack Bonus Against Harpies": {
+    "unified": "attack_bonus_harpies",
+    "aliases": [
+      "attack_bonus_against_harpy",
+      "attack_bonus_harpy"
+    ]
+  },
+  "Attack Bonus Against Insectoids": {
+    "unified": "attack_bonus_insectoids",
+    "aliases": [
+      "attack_bonus_against_insectoid"
+    ]
+  },
+  "Attack Bonus Against Mythical": {
+    "unified": "attack_bonus_mythical",
+    "aliases": [
+      "attack_bonus_against_mythical",
+      "attack_bonus_mythical"
+    ]
+  },
+  "Attack Bonus Against Humans": {
+    "unified": "attack_bonus_humans",
+    "aliases": [
+      "attack_bonus_against_human",
+      "attack_bonus_human"
+    ]
+  },
+  "Attack Bonus Against Bosses": {
+    "unified": "attack_bonus_bosses",
+    "aliases": [
+      "attack_bonus_against_bosses"
+    ]
+  },
+  "Attack Bonus Against Dragons": {
+    "unified": "attack_bonus_dragons",
+    "aliases": [
+      "attack_bonus_against_dragon"
+    ]
+  },
+  "Attack Bonus Against Magical": {
+    "unified": "attack_bonus_magical",
+    "aliases": [
+      "attack_bonus_against_magical"
+    ]
+  },
+  "Attack Bonus Against Human": {
+    "unified": "attack_bonus_human",
+    "aliases": [
+      "attack_bonus_against_human"
     ]
   },
   "Defense Bonus": {
@@ -108,43 +199,102 @@
       "defense_bonus",
       "Defense_Bonus",
       "+Defense Bonus",
-      "defense_bonus_against_warriors",
-      "defense_bonus_against_rogues",
-      "defense_bonus_against_mages",
-      "defense_bonus_against_priests",
-      "defense_bonus_against_undead",
-      "defense_bonus_against_demon",
-      "defense_bonus_against_dragon",
-      "defense_bonus_versus_warriors",
-      "defense_bonus_against_roguese",
-      "defense_bonus_against_roguess",
-      "defense_bonus_priests",
-      "defense_bonus_warriors",
-      "defense_bonus_rogues",
-      "defense_bonus_mages",
-      "defense_bonus_demon",
-      "defense_bonus_undead",
-      "defense_bonus_human",
-      "defense_bonus_mythical",
-      "defense_bonus_zombie",
-      "defense_bonus_priest",
-      "defense_bonus_rock",
-      "defense_bonus_magical",
-      "defense_bonus_vs_warriors",
-      "defense_bonus_vs_priests",
-      "defense_bonus_vs_rogues",
-      "defense_bonus_vs_mages",
-      "defense_bonus_vs_demon",
-      "defense_bonus_vs_undead",
-      "defense_bonus_vs_human",
-      "defense_bonus_vs_mythical",
-      "defense_bonus_vs_zombie",
-      "defense_bonus_vs_priest",
-      "defense_bonus_vs_rock",
-      "defense_bonus_vs_magical",
-      "defense_bonus_against_rogues",
       "defense_bonus_item",
       "defense_bonus_all_monsters"
+    ]
+  },
+  "Defense Bonus Against Warriors": {
+    "unified": "defense_bonus_warriors",
+    "aliases": [
+      "defense_bonus_against_warriors",
+      "defense_bonus_warriors",
+      "defense_bonus_versus_warriors",
+      "defense_bonus_vs_warriors"
+    ]
+  },
+  "Defense Bonus Against Rogues": {
+    "unified": "defense_bonus_rogues",
+    "aliases": [
+      "defense_bonus_against_rogues",
+      "defense_bonus_rogues",
+      "defense_bonus_against_roguese",
+      "defense_bonus_against_roguess",
+      "defense_bonus_vs_rogues"
+    ]
+  },
+  "Defense Bonus Against Mages": {
+    "unified": "defense_bonus_mages",
+    "aliases": [
+      "defense_bonus_against_mages",
+      "defense_bonus_mages",
+      "defense_bonus_vs_mages"
+    ]
+  },
+  "Defense Bonus Against Priests": {
+    "unified": "defense_bonus_priests",
+    "aliases": [
+      "defense_bonus_against_priests",
+      "defense_bonus_priests",
+      "defense_bonus_priest",
+      "defense_bonus_vs_priests"
+    ]
+  },
+  "Defense Bonus Against Undead": {
+    "unified": "defense_bonus_undead",
+    "aliases": [
+      "defense_bonus_against_undead",
+      "defense_bonus_undead",
+      "defense_bonus_vs_undead"
+    ]
+  },
+  "Defense Bonus Against Demons": {
+    "unified": "defense_bonus_demons",
+    "aliases": [
+      "defense_bonus_against_demon",
+      "defense_bonus_demon",
+      "defense_bonus_vs_demon"
+    ]
+  },
+  "Defense Bonus Against Dragons": {
+    "unified": "defense_bonus_dragons",
+    "aliases": [
+      "defense_bonus_against_dragon",
+      "defense_bonus_dragon"
+    ]
+  },
+  "Defense Bonus Against Humans": {
+    "unified": "defense_bonus_humans",
+    "aliases": [
+      "defense_bonus_human",
+      "defense_bonus_vs_human"
+    ]
+  },
+  "Defense Bonus Against Mythical": {
+    "unified": "defense_bonus_mythical",
+    "aliases": [
+      "defense_bonus_mythical",
+      "defense_bonus_vs_mythical"
+    ]
+  },
+  "Defense Bonus Against Zombies": {
+    "unified": "defense_bonus_zombies",
+    "aliases": [
+      "defense_bonus_zombie",
+      "defense_bonus_vs_zombie"
+    ]
+  },
+  "Defense Bonus Against Rock": {
+    "unified": "defense_bonus_rock",
+    "aliases": [
+      "defense_bonus_rock",
+      "defense_bonus_vs_rock"
+    ]
+  },
+  "Defense Bonus Against Magical": {
+    "unified": "defense_bonus_magical",
+    "aliases": [
+      "defense_bonus_magical",
+      "defense_bonus_vs_magical"
     ]
   },
   "Poison Damage": {
@@ -183,30 +333,74 @@
       "+Elemental Resistance",
       "elemental_bonus",
       "resistance_bonus",
-      "magic_resistance",
-      "fire_resistance",
-      "ice_resistance",
-      "lightning_resistance",
-      "poison_resistance",
-      "curse_resistance",
-      "damage_resistance",
-      "Elemental Resistance Bonus",
       "resistance_elemental",
-      "resistance_magic",
-      "resistance_fire",
-      "resistance_ice",
-      "resistance_lightning",
-      "resistance_poison",
-      "resistance_curse",
-      "resistance_damage",
       "resistance_all",
-      "elemental_resist",
-      "magic_resist",
-      "fire_resist",
-      "ice_resist",
-      "lightning_resist",
-      "poison_resist",
-      "curse_resist",
+      "elemental_resist"
+    ]
+  },
+  "Magic Resistance": {
+    "unified": "magic_resistance",
+    "aliases": [
+      "magic_resistance",
+      "Magic Resistance",
+      "Magic_Resistance",
+      "+Magic Resistance",
+      "resistance_magic",
+      "magic_resist"
+    ]
+  },
+  "Fire Resistance": {
+    "unified": "fire_resistance",
+    "aliases": [
+      "fire_resistance",
+      "Fire Resistance",
+      "Fire_Resistance",
+      "+Fire Resistance",
+      "resistance_fire",
+      "fire_resist"
+    ]
+  },
+  "Ice Resistance": {
+    "unified": "ice_resistance",
+    "aliases": [
+      "ice_resistance",
+      "Ice Resistance",
+      "Ice_Resistance",
+      "+Ice Resistance",
+      "resistance_ice",
+      "ice_resist"
+    ]
+  },
+  "Lightning Resistance": {
+    "unified": "lightning_resistance",
+    "aliases": [
+      "lightning_resistance",
+      "Lightning Resistance",
+      "Lightning_Resistance",
+      "+Lightning Resistance",
+      "resistance_lightning",
+      "lightning_resist"
+    ]
+  },
+  "Poison Resistance": {
+    "unified": "poison_resistance",
+    "aliases": [
+      "poison_resistance",
+      "Poison Resistance",
+      "Poison_Resistance",
+      "+Poison Resistance",
+      "resistance_poison",
+      "poison_resist"
+    ]
+  },
+  "Damage Resistance": {
+    "unified": "damage_resistance",
+    "aliases": [
+      "damage_resistance",
+      "Damage Resistance",
+      "Damage_Resistance",
+      "+Damage Resistance",
+      "resistance_damage",
       "damage_resist"
     ]
   },
@@ -343,60 +537,6 @@
       "mana_burn",
       "Mana_Burn",
       "+Mana Burn"
-    ]
-  },
-  "Fire Resistance": {
-    "unified": "Fire Resistance",
-    "aliases": [
-      "Fire Resistance",
-      "fire_resistance",
-      "Fire Resistance",
-      "resistance_to_fire",
-      "flame_resistance",
-      "heat_resistance",
-      "burn_resistance",
-      "anti_fire",
-      "fire_immunity",
-      "fire_protection",
-      "fire_guard",
-      "fire_shield",
-      "flame_defense"
-    ]
-  },
-  "Ice Resistance": {
-    "unified": "Ice Resistance",
-    "aliases": [
-      "Ice Resistance",
-      "ice_resistance",
-      "Ice Resistance",
-      "resistance_to_ice",
-      "frost_resistance",
-      "cold_resistance",
-      "freeze_resistance",
-      "anti_ice",
-      "ice_immunity",
-      "ice_protection",
-      "ice_guard",
-      "ice_shield",
-      "frost_defense"
-    ]
-  },
-  "Lightning Resistance": {
-    "unified": "Lightning Resistance",
-    "aliases": [
-      "Lightning Resistance",
-      "lightning_resistance",
-      "Lightning Resistance",
-      "resistance_to_lightning",
-      "electric_resistance",
-      "shock_resistance",
-      "thunder_resistance",
-      "anti_lightning",
-      "lightning_immunity",
-      "lightning_protection",
-      "lightning_guard",
-      "lightning_shield",
-      "electric_defense"
     ]
   },
   "Damage Type": {
@@ -1492,23 +1632,6 @@
       "cooldown_compress",
       "cooldown_condense",
       "cooldown_shrink"
-    ]
-  },
-  "Poison Resistance": {
-    "unified": "Poison Resistance",
-    "aliases": [
-      "Poison Resistance",
-      "poison_resistance",
-      "resistance_to_poison",
-      "poison_defense",
-      "toxin_resistance",
-      "venom_resistance",
-      "anti_poison",
-      "poison_immunity",
-      "poison_protection",
-      "poison_guard",
-      "poison_shield",
-      "toxin_defense"
     ]
   },
   "Curse Resistance": {

@@ -1,0 +1,247 @@
+[
+  {
+    "item_name": "Reaper (+8.3)",
+    "item_type": "Polearm",
+    "rarity": "Refined",
+    "class_restriction": "Warrior",
+    "weight": 165,
+    "durability": [
+      15572,
+      15572
+    ],
+    "maximum_rune": 2,
+    "primary": {
+      "Poison Damage": 94
+    },
+    "additional": {
+      "BP Bonus Per Kill": "+4 BP Bonus Per Kill",
+      "Attack Bonus against Warriors": "+5% Attack Bonus against Warriors",
+      "Attack Bonus against Rogues": "-5% Attack Bonus against Rogues"
+    },
+    "bonus": {},
+    "requirements": {
+      "Required Level": 70,
+      "Required Strength": 242
+    },
+    "other": {},
+    "physical_attack_bonus": 206,
+    "physical_defense_bonus": 0
+  },
+  {
+    "item_name": "Warrior Radiant Helmet (+2)",
+    "item_type": "Armor",
+    "rarity": "Unique",
+    "class_restriction": "Warrior",
+    "weight": 88,
+    "durability": [
+      16000,
+      16000
+    ],
+    "maximum_rune": 0,
+    "primary": {
+      "Physical Attack Bonus": 0,
+      "Physical Defense Bonus": 85
+    },
+    "additional": {},
+    "bonus": {},
+    "requirements": {
+      "Required Strength": 168,
+      "Required HP": 88
+    },
+    "other": {}
+  },
+  {
+    "item_name": "Viper",
+    "item_type": "Short Bow",
+    "rarity": "Refined",
+    "class_restriction": "Rogue",
+    "weight": 38,
+    "durability": [
+      16819,
+      16819
+    ],
+    "maximum_rune": 2,
+    "primary": {
+      "Poison Damage": -105
+    },
+    "additional": {
+      "XP Bonus": 10,
+      "Gold Bonus": 10,
+      "Attack Bonus Against Flying Creatures": 13
+    },
+    "bonus": {},
+    "requirements": {
+      "Required Level": 70,
+      "Dexterity": 227
+    },
+    "other": {},
+    "Physical Attack Bonus": 157,
+    "Physical Defense Bonus": 0
+  },
+  {
+    "item_name": "",
+    "item_type": "",
+    "rarity": "",
+    "class_restriction": "",
+    "weight": 0,
+    "durability": [],
+    "maximum_rune": 0,
+    "primary": {},
+    "additional": {},
+    "bonus": {},
+    "requirements": {},
+    "other": {},
+    "Physical Attack Bonus": 0,
+    "Physical Defense Bonus": 0
+  },
+  {
+    "item_name": "Windcaller (+9.3)",
+    "item_type": "Staff",
+    "rarity": "Refined",
+    "class_restriction": "Mage",
+    "weight": 29,
+    "durability": [
+      15454,
+      15454
+    ],
+    "maximum_rune": 2,
+    "primary": {
+      "HP": 26,
+      "Intelligence Bonus": 13,
+      "Ice Damage": 64,
+      "Holy Damage Resistance": 26,
+      "Poison Damage Resistance": 26,
+      "Curse Damage Resistance": 26
+    },
+    "additional": {},
+    "bonus": {},
+    "requirements": {
+      "Required Intelligence": 121,
+      "Required Magic": 121
+    },
+    "other": {},
+    "Physical Attack Bonus": 0,
+    "Physical Defense Bonus": 0
+  },
+  {
+    "item_name": "Jade Dagger (+9.7)",
+    "item_type": "Dagger",
+    "rarity": "Refined",
+    "class_restriction": "Rogue",
+    "weight": 1,
+    "durability": [
+      17638,
+      17638
+    ],
+    "maximum_rune": 1,
+    "primary": {
+      "damage_type": "Poison Damage",
+      "amount": 108
+    },
+    "additional": {
+      "attack_bonus_against_rogues": 9
+    },
+    "bonus": {},
+    "requirements": {
+      "required_level": 70,
+      "required_dexterity": 231
+    },
+    "other": {},
+    "physical_attack_bonus": 133,
+    "physical_defense_bonus": 0
+  },
+  {
+    "item_name": "",
+    "item_type": "",
+    "rarity": "",
+    "class_restriction": "",
+    "weight": 0,
+    "durability": [],
+    "maximum_rune": 0,
+    "primary": {},
+    "additional": {},
+    "bonus": {
+      "Physical Attack Bonus": 0,
+      "Physical Defense Bonus": 0
+    },
+    "requirements": {},
+    "other": {}
+  },
+  {
+    "item_name": "Vanquisher (+8.3)",
+    "item_type": "Spear",
+    "rarity": "Refined Item",
+    "class_restriction": "Warrior",
+    "weight": 56,
+    "durability": [
+      14572,
+      14572
+    ],
+    "maximum_rune": 1,
+    "primary": {
+      "fire_damage": 54
+    },
+    "additional": {
+      "mana_burn": 3
+    },
+    "bonus": {},
+    "requirements": {
+      "Required Level": 70,
+      "Required Strength": 238
+    },
+    "other": {},
+    "Physical Attack Bonus": 136,
+    "Physical Defense Bonus": 0
+  },
+  {
+    "item_name": "Enhanced Priest Plate Cuirass (+6)",
+    "item_type": "Priest Armor",
+    "rarity": "Epic",
+    "class_restriction": "Priest",
+    "weight": 70,
+    "durability": [
+      9000,
+      9000
+    ],
+    "maximum_rune": 1,
+    "primary": {
+      "Strength Bonus": -9
+    },
+    "additional": {},
+    "bonus": {},
+    "requirements": {
+      "Required Strength": 90,
+      "Strength Bonus": 70,
+      "Required Intelligence": 120,
+      "Intelligence Bonus": 50
+    },
+    "other": {},
+    "Physical Attack Bonus": 0,
+    "Physical Defense Bonus": 74
+  },
+  {
+    "item_name": "Warrior Radiant Chestplate (+9)",
+    "item_type": "Warrior Armor",
+    "rarity": "Unique",
+    "class_restriction": "Warrior",
+    "weight": 150,
+    "durability": [
+      26000,
+      26000
+    ],
+    "maximum_rune": 0,
+    "primary": {
+      "Physical Attack Bonus": 0,
+      "Physical Defense Bonus": 207
+    },
+    "additional": {},
+    "bonus": {},
+    "requirements": {
+      "Required Strength": 188,
+      "Required HP": 92
+    },
+    "other": {
+      "runes": "Runes can't be added to this item."
+    }
+  }
+]
